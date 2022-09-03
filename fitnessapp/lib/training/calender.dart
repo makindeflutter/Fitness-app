@@ -11,48 +11,45 @@ class Calenderpicker extends StatefulWidget {
 class _CalenderpickerState extends State<Calenderpicker> {
   DateTime dateTime = DateTime.now();
 
-  int days = 10;
+  int days = 7;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(10),
-            child: Row(
-              children: const [
-                Expanded(
-                    child: Text(
-                  'WEEK GOAL',
-                  style: TextStyle(
-                      color: Colors.black87,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold),
-                )),
-                Text(
-                  '0/7',
-                  style: TextStyle(
-                    color: Colors.blue,
-                    fontSize: 20,
-                  ),
-                )
-              ],
-            ),
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(10),
+          child: Row(
+            children: const [
+              Expanded(
+                  child: Text(
+                'WEEK GOAL',
+                style: TextStyle(
+                    color: Colors.black87,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold),
+              )),
+              Text(
+                '0/7',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontSize: 16,
+                ),
+              )
+            ],
           ),
-          CalenderPicker(
-            dateTime,
-            daysCount: days,
-            // ignore: avoid_print
-            enableMultiSelection: true,
-            // ignore: avoid_print
-            multiSelectionListener: (value) => print(value),
-            selectionColor: const Color(0XFF0342E9),
-            selectedTextColor: Colors.white,
-          ),
-        ],
-      ),
+        ),
+        CalenderPicker(
+          dateTime,
+          daysCount: days,
+          // ignore: avoid_print
+          enableMultiSelection: true,
+          // ignore: avoid_print
+          multiSelectionListener: (value) => print(value),
+          selectionColor: const Color(0XFF0342E9),
+          selectedTextColor: Colors.white,
+        ),
+      ],
     );
   }
 

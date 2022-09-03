@@ -15,7 +15,7 @@ class _ReportState extends State<Report> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      // body: const Body(),
+      body: const Body(),
     );
   }
 

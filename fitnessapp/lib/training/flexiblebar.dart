@@ -17,18 +17,19 @@ class MyFlexiableAppBar extends StatelessWidget {
             padding: const EdgeInsets.only(
               left: kDefaultPadding,
               right: kDefaultPadding,
+              top: kDefaultPadding,
               // bottom: 36 + kDefaultPadding,
             ),
-            height: MediaQuery.of(context).size.height * 0.2 - 27,
+            height: MediaQuery.of(context).size.height * 0.24 - 30,
             decoration: const BoxDecoration(
               color: Colors.blue,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.elliptical(-300, 30),
-                bottomRight: Radius.elliptical(300, 30),
+                bottomRight: Radius.elliptical(600, 70),
               ),
             ),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Column(
                   children: const [
@@ -86,10 +87,10 @@ class MyFlexiableAppBar extends StatelessWidget {
               alignment: Alignment.center,
               margin: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
               padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
-              height: 130,
+              height: 112,
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(10),
                 boxShadow: [
                   BoxShadow(
                     offset: const Offset(0, 10),

@@ -15,7 +15,7 @@ class _DiscoverState extends State<Discover> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      // body: const Body2(),
+      body: const Body2(),
     );
   }
 

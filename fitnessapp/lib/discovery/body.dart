@@ -1,6 +1,6 @@
 import 'package:fitnessapp/discovery/card2.dart';
 import 'package:fitnessapp/discovery/first.dart';
-import 'package:fitnessapp/discovery/pick.dart';
+import 'package:fitnessapp/discovery/picks.dart';
 import 'package:flutter/material.dart';
 
 import 'beginnersd.dart';
@@ -15,9 +15,9 @@ class Body2 extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const <Widget>[
           First(),
-          // Pick(),
+          Picks(),
           Card2(),
-          // CategoriesScroller(),
+          Begginerd(),
           SizedBox(height: 20),
         ],
       ),

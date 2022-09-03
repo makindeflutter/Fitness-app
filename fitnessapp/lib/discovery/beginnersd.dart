@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CategoriesScroller extends StatelessWidget {
-  const CategoriesScroller({
+class Begginerd extends StatelessWidget {
+  const Begginerd({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final double categoryHeight =
-        MediaQuery.of(context).size.height * 0.30 - 50;
+        MediaQuery.of(context).size.height * 0.20 - 30;
     return SingleChildScrollView(
       physics: const BouncingScrollPhysics(),
       scrollDirection: Axis.horizontal,
@@ -20,30 +20,22 @@ class CategoriesScroller extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Container(
-                width: 150,
+                width: 140,
                 margin: const EdgeInsets.only(right: 20),
                 height: categoryHeight,
-                decoration: BoxDecoration(
-                    color: Colors.orange.shade400,
-                    borderRadius:
-                        const BorderRadius.all(Radius.circular(20.0))),
+                decoration: const BoxDecoration(
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.all(Radius.circular(5.0))),
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const <Widget>[
-                      Text(
-                        "Most\nFavorites",
-                        style: TextStyle(
-                            fontSize: 25,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold),
-                      ),
                       SizedBox(
                         height: 10,
                       ),
                       Text(
-                        "20 Items",
+                        "only 4 moves for abs",
                         style: TextStyle(fontSize: 16, color: Colors.white),
                       ),
                     ],
@@ -51,7 +43,7 @@ class CategoriesScroller extends StatelessWidget {
                 ),
               ),
               Container(
-                width: 150,
+                width: 140,
                 margin: const EdgeInsets.only(right: 20),
                 height: categoryHeight,
                 decoration: BoxDecoration(
@@ -74,7 +66,7 @@ class CategoriesScroller extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        "20 Items",
+                        "Leg workout (No JUMPMING)",
                         style: TextStyle(fontSize: 16, color: Colors.white),
                       ),
                     ],
@@ -82,7 +74,7 @@ class CategoriesScroller extends StatelessWidget {
                 ),
               ),
               Container(
-                width: 150,
+                width: 140,
                 margin: const EdgeInsets.only(right: 20),
                 height: categoryHeight,
                 decoration: BoxDecoration(
@@ -105,7 +97,7 @@ class CategoriesScroller extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        "20 Items",
+                        "Abs workout (NO CRUNCH!!)",
                         style: TextStyle(fontSize: 16, color: Colors.white),
                       ),
                     ],
