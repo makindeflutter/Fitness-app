@@ -1,5 +1,5 @@
+import 'package:fitnessapp/Report.dart/weight.dart';
 import 'package:flutter/material.dart';
-
 import 'calender.dart';
 import 'detail.dart';
 
@@ -11,7 +11,11 @@ class Body extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[Details(), Calenderpicker()],
+        children: const <Widget>[
+          Details(),
+          Calenderpicker(),
+          LineChartPage(),
+        ],
       ),
     );
   }

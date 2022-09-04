@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Picks extends StatelessWidget {
-  const Picks({
+class Fast extends StatelessWidget {
+  const Fast({
     Key? key,
   }) : super(key: key);
 
@@ -16,7 +16,7 @@ class Picks extends StatelessWidget {
             left: 10,
           ),
           child: Text(
-            'Picks for you',
+            'Fast workout',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.black,
@@ -44,13 +44,11 @@ class Picks extends StatelessWidget {
                                 height: 100,
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
-                                  child: const Expanded(
-                                    child: Image(
-                                      fit: BoxFit.contain,
-                                      alignment: Alignment.topLeft,
-                                      image: NetworkImage(
-                                          "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
-                                    ),
+                                  child: const Image(
+                                    fit: BoxFit.contain,
+                                    alignment: Alignment.topLeft,
+                                    image: NetworkImage(
+                                        "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
                                   ),
                                 ),
                               ),
@@ -72,7 +70,7 @@ class Picks extends StatelessWidget {
                               SizedBox(
                                 height: 100,
                                 child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(12.0),
+                                  borderRadius: BorderRadius.circular(24.0),
                                   child: const Image(
                                     fit: BoxFit.contain,
                                     alignment: Alignment.topLeft,

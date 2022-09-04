@@ -20,6 +20,8 @@ dependencies:
   
   cupertino_icons: ^1.0.2
   calender_picker: ^1.0.7
+  fl_chart: ^0.55.1
+  font_awesome_flutter: ^10.1.0
 
 dev_dependencies:
   flutter_test:

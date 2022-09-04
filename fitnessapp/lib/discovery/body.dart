@@ -1,6 +1,11 @@
+import 'package:fitnessapp/discovery/body_focus.dart';
 import 'package:fitnessapp/discovery/card2.dart';
+import 'package:fitnessapp/discovery/challenge.dart';
+import 'package:fitnessapp/discovery/fast_workout.dart';
 import 'package:fitnessapp/discovery/first.dart';
 import 'package:fitnessapp/discovery/picks.dart';
+import 'package:fitnessapp/discovery/sleep.dart';
+import 'package:fitnessapp/discovery/with_equiment.dart';
 import 'package:flutter/material.dart';
 
 import 'beginnersd.dart';
@@ -18,6 +23,11 @@ class Body2 extends StatelessWidget {
           Picks(),
           Card2(),
           Begginerd(),
+          Fast(),
+          Challenged(),
+          Witheq(),
+          Sleep(),
+          BodyFocus(),
           SizedBox(height: 20),
         ],
       ),

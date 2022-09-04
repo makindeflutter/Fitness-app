@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Picks extends StatelessWidget {
-  const Picks({
+class Sleep extends StatelessWidget {
+  const Sleep({
     Key? key,
   }) : super(key: key);
 
@@ -16,7 +16,7 @@ class Picks extends StatelessWidget {
             left: 10,
           ),
           child: Text(
-            'Picks for you',
+            'Sleep',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.black,
@@ -38,19 +38,17 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(13.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(12.0),
-                                  child: const Expanded(
-                                    child: Image(
-                                      fit: BoxFit.contain,
-                                      alignment: Alignment.topLeft,
-                                      image: NetworkImage(
-                                          "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
-                                    ),
+                                  child: const Image(
+                                    fit: BoxFit.contain,
+                                    alignment: Alignment.topLeft,
+                                    image: NetworkImage(
+                                        "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
                                   ),
                                 ),
                               ),
@@ -67,12 +65,12 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(13.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
                                 child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(12.0),
+                                  borderRadius: BorderRadius.circular(24.0),
                                   child: const Image(
                                     fit: BoxFit.contain,
                                     alignment: Alignment.topLeft,
@@ -98,7 +96,7 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(24.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
@@ -125,7 +123,7 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(24.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
@@ -156,7 +154,7 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(24.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
@@ -183,7 +181,7 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(24.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,
@@ -241,7 +239,7 @@ class Picks extends StatelessWidget {
                           elevation: 14.0,
                           borderRadius: BorderRadius.circular(24.0),
                           shadowColor: const Color(0x802196F3),
-                          child: Row(
+                          child: Column(
                             children: <Widget>[
                               SizedBox(
                                 height: 100,

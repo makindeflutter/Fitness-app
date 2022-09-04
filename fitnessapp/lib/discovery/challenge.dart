@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Begginerd extends StatelessWidget {
-  const Begginerd({
+class Challenged extends StatelessWidget {
+  const Challenged({
     Key? key,
   }) : super(key: key);
 
@@ -66,7 +66,7 @@ class Begginerd extends StatelessWidget {
                     decoration: BoxDecoration(
                         color: Colors.blue.shade400,
                         borderRadius:
-                            const BorderRadius.all(Radius.circular(20.0))),
+                            const BorderRadius.all(Radius.circular(5.0))),
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Column(
@@ -97,7 +97,7 @@ class Begginerd extends StatelessWidget {
                     decoration: BoxDecoration(
                         color: Colors.lightBlueAccent.shade400,
                         borderRadius:
-                            const BorderRadius.all(Radius.circular(20.0))),
+                            const BorderRadius.all(Radius.circular(5.0))),
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Column(
