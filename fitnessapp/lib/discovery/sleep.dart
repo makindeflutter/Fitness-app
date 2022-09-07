@@ -100,12 +100,12 @@ class Sleep extends StatelessWidget {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(5.0),
                             child: const AspectRatio(
-                              aspectRatio: 5/ 3,
+                              aspectRatio: 5 / 3,
                               child: Expanded(
                                 child: Image(
                                   fit: BoxFit.cover,
                                   image: NetworkImage(
-                                      "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
+                                      "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=468&q=80"),
                                 ),
                               ),
                             ),
@@ -128,12 +128,12 @@ class Sleep extends StatelessWidget {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(5.0),
                             child: const AspectRatio(
-                              aspectRatio: 5/ 3,
+                              aspectRatio: 5 / 3,
                               child: Expanded(
                                 child: Image(
                                   fit: BoxFit.cover,
                                   image: NetworkImage(
-                                      "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
+                                      "https://images.unsplash.com/photo-1485727749690-d091e8284ef3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"),
                                 ),
                               ),
                             ),
@@ -188,12 +188,12 @@ class Sleep extends StatelessWidget {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(5.0),
                             child: const AspectRatio(
-                              aspectRatio: 5/ 3,
+                              aspectRatio: 5 / 3,
                               child: Expanded(
                                 child: Image(
                                   fit: BoxFit.cover,
                                   image: NetworkImage(
-                                      "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"),
+                                      "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"),
                                 ),
                               ),
                             ),
@@ -208,7 +208,6 @@ class Sleep extends StatelessWidget {
                   )
                 ],
               ),
-            
             ],
           ),
         ),

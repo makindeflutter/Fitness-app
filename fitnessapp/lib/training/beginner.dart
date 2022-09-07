@@ -74,7 +74,7 @@ class _BeginnerState extends State<Beginner> {
               children: [
                 Ink.image(
                   image: const NetworkImage(
-                    'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+                    'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
                   ),
                   height: 130,
                   fit: BoxFit.cover,
@@ -109,7 +109,7 @@ class _BeginnerState extends State<Beginner> {
               children: [
                 Ink.image(
                   image: const NetworkImage(
-                    'https://images.unsplash.com/photo-1600026453249-24a43274d65a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQwfHxneW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+                    'https://images.unsplash.com/photo-1548932813-88dcf75599c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
                   ),
                   height: 130,
                   fit: BoxFit.cover,
