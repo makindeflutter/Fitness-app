@@ -35,11 +35,11 @@ class _FirstState extends State<First> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   Padding(
                     padding: EdgeInsets.only(
                       top: 30,
-                      right: 30,
                     ),
                     child: Text(
                       '7 min classic',

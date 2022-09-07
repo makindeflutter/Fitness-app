@@ -1,4 +1,3 @@
-import 'package:fitnessapp/Report.dart/weight.dart';
 import 'package:flutter/material.dart';
 import 'calender.dart';
 import 'detail.dart';
@@ -14,7 +13,6 @@ class Body extends StatelessWidget {
         children: const <Widget>[
           Details(),
           Calenderpicker(),
-          LineChartPage(),
         ],
       ),
     );

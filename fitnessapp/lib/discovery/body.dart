@@ -1,4 +1,3 @@
-import 'package:fitnessapp/discovery/body_focus.dart';
 import 'package:fitnessapp/discovery/card2.dart';
 import 'package:fitnessapp/discovery/challenge.dart';
 import 'package:fitnessapp/discovery/fast_workout.dart';
@@ -27,7 +26,6 @@ class Body2 extends StatelessWidget {
           Challenged(),
           Witheq(),
           Sleep(),
-          BodyFocus(),
           SizedBox(height: 20),
         ],
       ),

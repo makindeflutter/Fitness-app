@@ -35,11 +35,11 @@ class _Card2State extends State<Card2> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: const [
                   Padding(
                     padding: EdgeInsets.only(
                       top: 30,
-                      right: 30,
                     ),
                     child: Text(
                       'Best quarantine workout',

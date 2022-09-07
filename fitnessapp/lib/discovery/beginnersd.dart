@@ -7,8 +7,7 @@ class Begginerd extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double categoryHeight =
-        MediaQuery.of(context).size.height * 0.20 - 30;
+    final double categoryHeight = MediaQuery.of(context).size.height * 0.20;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -46,14 +45,22 @@ class Begginerd extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.end,
                         children: const <Widget>[
                           SizedBox(
-                            height: 10,
+                            height: 3,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Text(
+                              "4",
+                              style:
+                                  TextStyle(fontSize: 30, color: Colors.white),
+                            ),
                           ),
                           Text(
-                            "only 4 moves for abs",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
+                            "Only 4 moves for abs",
+                            style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
                         ],
                       ),
@@ -63,28 +70,28 @@ class Begginerd extends StatelessWidget {
                     width: 140,
                     margin: const EdgeInsets.only(right: 20),
                     height: categoryHeight,
-                    decoration: BoxDecoration(
-                        color: Colors.blue.shade400,
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(20.0))),
+                    decoration: const BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.all(Radius.circular(5.0))),
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.end,
                         children: const <Widget>[
-                          Text(
-                            "Newest",
-                            style: TextStyle(
-                                fontSize: 25,
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold),
+                          Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Icon(
+                              Icons.nordic_walking,
+                              color: Colors.white,
+                              size: 30,
+                            ),
                           ),
                           SizedBox(
-                            height: 10,
+                            height: 3,
                           ),
                           Text(
                             "Leg workout (No JUMPMING)",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
+                            style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
                         ],
                       ),
@@ -94,28 +101,90 @@ class Begginerd extends StatelessWidget {
                     width: 140,
                     margin: const EdgeInsets.only(right: 20),
                     height: categoryHeight,
-                    decoration: BoxDecoration(
-                        color: Colors.lightBlueAccent.shade400,
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(20.0))),
+                    decoration: const BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.all(Radius.circular(5.0))),
                     child: Padding(
                       padding: const EdgeInsets.all(12.0),
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.end,
                         children: const <Widget>[
-                          Text(
-                            "Super\nSaving",
-                            style: TextStyle(
-                                fontSize: 25,
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold),
+                          Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Icon(
+                              Icons.not_interested_sharp,
+                              color: Colors.white,
+                              size: 30,
+                            ),
                           ),
                           SizedBox(
-                            height: 10,
+                            height: 3,
                           ),
                           Text(
                             "Abs workout (NO CRUNCH!!)",
-                            style: TextStyle(fontSize: 16, color: Colors.white),
+                            style: TextStyle(fontSize: 18, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 140,
+                    margin: const EdgeInsets.only(right: 20),
+                    height: categoryHeight,
+                    decoration: const BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: const <Widget>[
+                          Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Icon(
+                              Icons.not_interested_sharp,
+                              color: Colors.white,
+                              size: 30,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 3,
+                          ),
+                          Text(
+                            "Arms workout (NO PUSH UPS!)",
+                            style: TextStyle(fontSize: 18, color: Colors.white),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 140,
+                    margin: const EdgeInsets.only(right: 20),
+                    height: categoryHeight,
+                    decoration: const BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: const <Widget>[
+                          Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Icon(
+                              Icons.radio_button_on_rounded,
+                              color: Colors.white,
+                              size: 30,
+                            ),
+                          ),
+                          SizedBox(
+                            height: 3,
+                          ),
+                          Text(
+                            "Beginner core workout",
+                            style: TextStyle(fontSize: 18, color: Colors.white),
                           ),
                         ],
                       ),
