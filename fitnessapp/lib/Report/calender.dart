@@ -17,6 +17,7 @@ class _CalenderpickerState extends State<Calenderpicker> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
@@ -32,7 +33,7 @@ class _CalenderpickerState extends State<Calenderpicker> {
                       fontWeight: FontWeight.bold),
                 )),
                 Text(
-                  'more',
+                  'MORE',
                   style: TextStyle(
                     color: Colors.blue,
                     fontSize: 20,
@@ -51,6 +52,16 @@ class _CalenderpickerState extends State<Calenderpicker> {
             selectionColor: const Color(0XFF0342E9),
             selectedTextColor: Colors.white,
           ),
+          const Padding(
+            padding: EdgeInsets.all(10.0),
+            child: Text(
+              'RECORDS',
+              style: TextStyle(
+                color: Colors.blueAccent,
+                fontSize: 20,
+              ),
+            ),
+          )
         ],
       ),
     );

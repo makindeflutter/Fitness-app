@@ -7,58 +7,62 @@ class Details extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Padding(
-        padding: const EdgeInsets.only(top: 20),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
-            Column(
-              children: const [
-                Text("21",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold)),
-                Text("WORKOUT",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 15.0)),
-              ],
-            ),
-            Column(
-              children: const [
-                Text("2167",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold)),
-                Text("KCAL",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 15.0)),
-              ],
-            ),
-            Column(
-              children: const [
-                Text("217",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold)),
-                Text("MINUTES",
-                    style: TextStyle(
-                        color: Colors.blue,
-                        fontFamily: 'Poppins',
-                        fontSize: 15.0)),
-              ],
-            ),
-          ],
+    return SafeArea(
+      child: Container(
+        decoration: const BoxDecoration(
+            color: Colors.white38, backgroundBlendMode: BlendMode.darken),
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Column(
+                children: const [
+                  Text("21",
+                      style: TextStyle(
+                          color: Colors.blue,
+                          fontFamily: 'Poppins',
+                          fontSize: 24.0,
+                          fontWeight: FontWeight.bold)),
+                  Text("WORKOUT",
+                      style: TextStyle(
+                          color: Colors.grey,
+                          fontFamily: 'Poppins',
+                          fontSize: 15.0)),
+                ],
+              ),
+              Column(
+                children: const [
+                  Text("2167",
+                      style: TextStyle(
+                          color: Colors.blue,
+                          fontFamily: 'Poppins',
+                          fontSize: 24.0,
+                          fontWeight: FontWeight.bold)),
+                  Text("KCAL",
+                      style: TextStyle(
+                          color: Colors.grey,
+                          fontFamily: 'Poppins',
+                          fontSize: 15.0)),
+                ],
+              ),
+              Column(
+                children: const [
+                  Text("217",
+                      style: TextStyle(
+                          color: Colors.blue,
+                          fontFamily: 'Poppins',
+                          fontSize: 24.0,
+                          fontWeight: FontWeight.bold)),
+                  Text("MINUTES",
+                      style: TextStyle(
+                          color: Colors.grey,
+                          fontFamily: 'Poppins',
+                          fontSize: 15.0)),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
