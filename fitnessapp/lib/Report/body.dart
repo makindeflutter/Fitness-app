@@ -1,3 +1,4 @@
+import 'package:fitnessapp/Report/line_chart_widget.dart';
 import 'package:flutter/material.dart';
 import 'calender.dart';
 import 'detail.dart';
@@ -10,9 +11,10 @@ class Body extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
-          Details(),
-          Calenderpicker(),
+        children: <Widget>[
+          const Details(),
+          const Calenderpicker(),
+          MyScreen(),
         ],
       ),
     );
