@@ -12,8 +12,11 @@ class Body extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
+          const Divider(),
           const Details(),
+          const Divider(),
           const Calenderpicker(),
+          const Divider(),
           MyScreen(),
         ],
       ),
