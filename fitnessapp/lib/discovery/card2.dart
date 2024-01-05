@@ -32,11 +32,11 @@ class _Card2State extends State<Card2> {
                 onTap: () {},
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   Padding(
                     padding: EdgeInsets.only(
                       top: 30,

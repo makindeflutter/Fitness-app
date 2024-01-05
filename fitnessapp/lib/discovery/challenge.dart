@@ -42,11 +42,11 @@ class Challenged extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.deepOrangeAccent,
                         borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(
@@ -73,11 +73,11 @@ class Challenged extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.deepOrangeAccent,
                         borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const <Widget>[
+                        children: <Widget>[
                           SizedBox(
                             height: 3,
                           ),
@@ -104,11 +104,11 @@ class Challenged extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.deepOrangeAccent,
                         borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(
@@ -135,11 +135,11 @@ class Challenged extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.deepOrangeAccent,
                         borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(
@@ -166,11 +166,11 @@ class Challenged extends StatelessWidget {
                     decoration: const BoxDecoration(
                         color: Colors.deepOrangeAccent,
                         borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Icon(

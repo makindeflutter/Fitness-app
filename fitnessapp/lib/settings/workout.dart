@@ -16,17 +16,17 @@ class Sleep extends StatelessWidget {
             children: [
               Container(
                 color: Colors.white70,
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(10.0),
+                      padding: EdgeInsets.all(10.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.only(top: 20.0),
                                 child: Text("Back up & Restore ",
@@ -55,7 +55,7 @@ class Sleep extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const Padding(
+                          Padding(
                             padding: EdgeInsets.only(
                               top: 10.0,
                               bottom: 10,
@@ -70,7 +70,7 @@ class Sleep extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const Padding(
+                    Padding(
                       padding: EdgeInsets.only(top: 20.0, right: 20),
                       child: Icon(
                         Icons.replay,
@@ -86,12 +86,12 @@ class Sleep extends StatelessWidget {
               ),
               Container(
                 color: Colors.white70,
-                child: Padding(
-                  padding: const EdgeInsets.only(top: 20.0),
+                child: const Padding(
+                  padding: EdgeInsets.only(top: 20.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Padding(
+                      Padding(
                         padding: EdgeInsets.all(8.0),
                         child: Text("Workout",
                             style: TextStyle(
@@ -102,7 +102,7 @@ class Sleep extends StatelessWidget {
                       ),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Padding(
                             padding: EdgeInsets.all(20.0),
                             child: Icon(
@@ -134,9 +134,9 @@ class Sleep extends StatelessWidget {
         ),
         Container(
           color: Colors.white70,
-          child: Row(
+          child: const Row(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Icon(
@@ -162,9 +162,9 @@ class Sleep extends StatelessWidget {
         ),
         Container(
           color: Colors.white70,
-          child: Row(
+          child: const Row(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Icon(
@@ -190,9 +190,9 @@ class Sleep extends StatelessWidget {
         ),
         Container(
           color: Colors.white70,
-          child: Row(
+          child: const Row(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Icon(

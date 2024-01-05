@@ -11,13 +11,13 @@ class Details extends StatelessWidget {
       child: Container(
         decoration: const BoxDecoration(
             color: Colors.white38, backgroundBlendMode: BlendMode.darken),
-        child: Padding(
-          padding: const EdgeInsets.all(20),
+        child: const Padding(
+          padding: EdgeInsets.all(20),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Column(
-                children: const [
+                children: [
                   Text("21",
                       style: TextStyle(
                           color: Colors.blue,
@@ -32,7 +32,7 @@ class Details extends StatelessWidget {
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("2167",
                       style: TextStyle(
                           color: Colors.blue,
@@ -47,7 +47,7 @@ class Details extends StatelessWidget {
                 ],
               ),
               Column(
-                children: const [
+                children: [
                   Text("217",
                       style: TextStyle(
                           color: Colors.blue,

@@ -28,11 +28,11 @@ class MyFlexiableAppBar extends StatelessWidget {
                 bottomRight: Radius.elliptical(600, 70),
               ),
             ),
-            child: Row(
+            child: const Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Column(
-                  children: const [
+                  children: [
                     Text("21",
                         style: TextStyle(
                             color: Colors.white,
@@ -47,7 +47,7 @@ class MyFlexiableAppBar extends StatelessWidget {
                   ],
                 ),
                 Column(
-                  children: const [
+                  children: [
                     Text("2167",
                         style: TextStyle(
                             color: Colors.white,
@@ -62,7 +62,7 @@ class MyFlexiableAppBar extends StatelessWidget {
                   ],
                 ),
                 Column(
-                  children: const [
+                  children: [
                     Text("217",
                         style: TextStyle(
                             color: Colors.white,

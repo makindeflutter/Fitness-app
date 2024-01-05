@@ -23,9 +23,9 @@ class _DiscoverState extends State<Discover> {
     return AppBar(
       elevation: 0,
       backgroundColor: Colors.white,
-      title: Row(
+      title: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: const [
+        children: [
           Text(
             'DISCOVERY',
             style: TextStyle(

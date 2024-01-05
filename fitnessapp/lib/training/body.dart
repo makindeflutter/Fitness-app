@@ -1,7 +1,5 @@
-import 'package:fitnessapp/training/advanced.dart';
 import 'package:fitnessapp/training/beginner.dart';
 import 'package:fitnessapp/training/challenge.dart';
-import 'package:fitnessapp/training/intermediate.dart';
 import 'package:flutter/material.dart';
 import 'flexiblebar.dart';
 
@@ -13,13 +11,13 @@ class Body extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
-          MyFlexiableAppBar(),
-          Challenge(),
-          Beginner(),
-          Intermediate(),
-          Advanced(),
-          SizedBox(height: 20),
+        children: <Widget>[
+          const MyFlexiableAppBar(),
+          const Challenge(),
+          custombegincard(header: 'BEGINNER'),
+          custombegincard(header: 'INTERMEDIATE'),
+          custombegincard(header: 'ADVANCED'),
+          const SizedBox(height: 20),
         ],
       ),
     );

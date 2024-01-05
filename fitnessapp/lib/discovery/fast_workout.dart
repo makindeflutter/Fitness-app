@@ -218,12 +218,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer1() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 12.0),
+    return const Padding(
+      padding: EdgeInsets.only(top: 12.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Text(
             "Belly fat burner HIIT         ",
             style: TextStyle(
@@ -244,12 +244,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer2() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 12.0),
+    return const Padding(
+      padding: EdgeInsets.only(top: 12.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Padding(
             padding: EdgeInsets.only(left: 8.0),
             child: Text(
@@ -273,12 +273,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer3() {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
+    return const Padding(
+      padding: EdgeInsets.all(20.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Text(
             "7 HIIT  workout    ",
             style: TextStyle(
@@ -299,12 +299,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer4() {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
+    return const Padding(
+      padding: EdgeInsets.all(20.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Text(
             "Steady workout   ",
             style: TextStyle(
@@ -325,12 +325,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer5() {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
+    return const Padding(
+      padding: EdgeInsets.all(20.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Text(
             "7 abs Workout  ",
             style: TextStyle(
@@ -351,12 +351,12 @@ class Fast extends StatelessWidget {
   }
 
   Widget myDetailsContainer6() {
-    return Padding(
-      padding: const EdgeInsets.all(20.0),
+    return const Padding(
+      padding: EdgeInsets.all(20.0),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const <Widget>[
+        children: <Widget>[
           Text(
             "7 legs Workout ",
             style: TextStyle(

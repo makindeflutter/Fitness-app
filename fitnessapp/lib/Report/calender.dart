@@ -20,10 +20,10 @@ class _CalenderpickerState extends State<Calenderpicker> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(10),
+          const Padding(
+            padding: EdgeInsets.all(10),
             child: Row(
-              children: const [
+              children: [
                 Expanded(
                     child: Text(
                   'History',
